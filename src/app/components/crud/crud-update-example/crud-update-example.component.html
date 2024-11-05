@@ -40,7 +40,7 @@
         <div formArrayName="phoneNumbers">
             
                 <div *ngFor="let phone of phoneNumbers.controls; let i=index"
-                [formGroup]="i"
+                [formGroupName]="i"
                 class="d-flex gap-3 align-items-center">
                 <mat-form-field>
                     <mat-label>Τηλέφωνο:</mat-label>
